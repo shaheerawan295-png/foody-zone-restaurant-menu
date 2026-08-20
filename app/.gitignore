@@ -1,0 +1,3 @@
+# App-specific ignores
+dist/
+dist-ssr/
