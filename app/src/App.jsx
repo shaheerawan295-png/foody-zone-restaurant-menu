@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import SearchResult from "./components/SearchResults/SearchResult";
 
-export const BASE_URL = "http://localhost:9000";
+export const BASE_URL = "";
 
 const App = () => {
   const [data, setData] = useState(null);
@@ -16,7 +16,7 @@ const App = () => {
       setLoading(true);
 
       try {
-        const response = await fetch(BASE_URL);
+        const response = await fetch(`${BASE_URL}/api`);
 
         const json = await response.json();
 
