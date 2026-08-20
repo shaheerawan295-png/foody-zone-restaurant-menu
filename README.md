@@ -2,7 +2,7 @@
 
 A full-stack food ordering application with a modern UI, built with React and Express.js. Browse food items by category, search by name, and view pricing — all in a sleek, responsive interface.
 
-![FoodyZone](app/public/bg.png)
+![FoodyZone](app/public/screenshot.png)
 
 ## Tech Stack
 
